@@ -33,7 +33,7 @@ root = tk.Tk() # make root window
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
-backgroundImage = tk.PhotoImage(file='weatherappbg3.png')
+backgroundImage = tk.PhotoImage(file='weatherappbg2.png')
 backgroundLabel = tk.Label(root, image=backgroundImage)
 backgroundLabel.place(relwidth=1, relheight=1)
 
